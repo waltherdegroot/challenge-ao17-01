@@ -1,4 +1,4 @@
-# Instructies Challenge AO17-01: HTML/CSS en basis Javascript
+# Challenge AO17-01: HTML/CSS en Javascript
 
 ## Beschikbare tijd
 Maandag 6 november 2017 14:00 t/m vrijdag 10 november 2017 23:59
@@ -28,12 +28,12 @@ Je mag veel meer eigen inbreng gebruiken als bij de oefeningen in de afgelopen t
 *	Er zijn vier pagina’s (home, over, jobs, contact) met dezelfde layout;
 *	Er is een horizontaal menu met daarin vier items: home, over, jobs, contact die linken naar de betreffende pagina;
 *	De layout kent de volgende onderdelen:
-**	bovenaan een menubalk (horizontaal);
-**	daaronder een banner (100% breedte, hoogte 200pixels)
-**	daaronder de content in twee kolommen
-***	linkerkant
-***	rechterkant 
-**	onderaan een footer 
+  *	bovenaan een menubalk (horizontaal);
+  *	daaronder een banner (100% breedte, hoogte 200pixels)
+  *	daaronder de content in twee kolommen
+    *	linkerkant
+    *	rechterkant 
+  *	onderaan een footer 
 *	Gebruik ergens in je site een caroussel (javascript of jquery code die op 1 plek steeds een nieuwe afbeelding laat zien)
 
 ## Technische eisen:
