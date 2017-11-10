@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Chavez | Jobs</title>
+		<link href="./main.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<header>
+			<nav>
+				<ul>
+					<li><a href="./index.html">Home</a></li>
+					<li><a href="./over.html">Over</a></li>
+					<li><a href="./jobs.html">Jobs</a></li>
+					<li><a href="./contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<div id="banner_1">
+			</div>
+			<div id="main_flex">
+				<div id="column_1">
+					<h2>WERKEN BIJ ESPRESSOBAR CHAVEZ</h2>
+					<p>Espressobar Chavez is als een tweede huiskamer. Ons horeca-concept draait om koffie, health, genieten en gezelligheid. 
+						Floreer jij in zo’n ongedwongen sfeer en bezorg jij anderen graag een fijn moment in zijn of haar dag? 
+						Is koffie jouw middle name? Dan zou je zomaar in ons team kunnen passen. Scroll verder voor de vacatures of stuur ons een open sollicitatie.
+					</p>
+					<h2>WIL JE WERKEN BIJ ESPRESSOBAR CHAVEZ? DAN IS DIT WAT WE VAN JE VERWACHTEN:</h2>
+					<ul>
+						<li>Jij wilt gasten een fijn moment in hun dag bezorgen. Iedere klant, iedere dag weer.</li>
+						<li>Flexibele werktijden zijn voor jou geen probleem.</li>
+						<li>Je pakt zaken met passie aan.</li>
+						<li>Je snapt ons concept en draagt het graag uit.</li>
+						<li>Niet alleen de gasten, maar ook je collega’s kunnen rekenen op jouw glimlach.</li>
+					</ul>
+				</div>
+				<div id="column_2">
+					
+					<div class="banner_slideshow_container">
+						<div class="job_slide fade">
+							<img src="./jobs/jobs-photo1.jpg" alt="banner image">
+						</div>
+						<div class="job_slide fade">
+							<img src="./jobs/jobs-photo2.jpg" alt="banner image">
+						</div>
+						<div class="job_slide fade">
+							<img src="./jobs/jobs-photo3.jpg" alt="banner image">
+						</div>
+						<div class="job_slide fade">
+							<img src="./jobs/jobs-photo4.jpg" alt="banner image">
+						</div>
+					</div>
+					<script>
+						var slideshow_index = 1;
+						slideshow(slideshow_index);
+
+						function slideshow(n) {
+						  var i;
+						  var slides = document.getElementsByClassName("job_slide");
+						  if (n > slides.length) {slideshow_index = 1}    
+						  if (n < 1) {slideshow_index = slides.length}
+						  for (i = 0; i < slides.length; i++) {
+							  slides[i].style.display = "none";  
+						  }
+						  slideshow_index++;
+						  if(slideshow_index > slides.length){slideshow_index = 1}
+						  slides[slideshow_index-1].style.display = "block";  
+						  setTimeout(slideshow, 5000);
+						}
+					</script>
+				</div>
+			</div>
+		</main>
+		<footer>
+			&copy; Espressobar Chavez || 2017
+		</footer>
+	</body>
+</html>
